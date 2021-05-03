@@ -1,0 +1,23 @@
+{
+  "name": "starwars-names-lib",
+  "version": "1.0.0",
+  "description": "\"# starwars-names-lib\"",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijaygenius123/starwars-names-lib.git"
+  },
+  "author": "'Vijayaraghavan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vijaygenius123/starwars-names-lib/issues"
+  },
+  "homepage": "https://github.com/vijaygenius123/starwars-names-lib#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}

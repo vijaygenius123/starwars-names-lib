@@ -1,5 +1,5 @@
 {
-  "name": "starwars-names-lib",
+  "name": "@vijaygenius123/starwars-names-lib",
   "version": "1.0.0",
   "description": "\"# starwars-names-lib\"",
   "main": "src/index.js",
@@ -19,5 +19,6 @@
   "homepage": "https://github.com/vijaygenius123/starwars-names-lib#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
-  }
+  },
+  "devDependencies": {}
 }

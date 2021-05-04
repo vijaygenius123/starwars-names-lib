@@ -1,15 +1,17 @@
 {
   "name": "@vijaygenius123/starwars-names-lib",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "\"# starwars-names-lib\"",
   "main": "src/index.js",
   "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "git-cz",
+    "test": "mocha src/index.test.js -w",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vijaygenius123/starwars-names-lib.git"
+    "url": "https://github.com/vijaygenius123/starwars-names-lib.git"
   },
   "author": "'Vijayaraghavan",
   "license": "ISC",
@@ -20,5 +22,14 @@
   "dependencies": {
     "unique-random-array": "1.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "chai": "4.3.4",
+    "commitizen": "4.2.3",
+    "cz-conventional-changelog": "3.3.0",
+    "mocha": "8.3.2",
+    "semantic-release": "^17.4.2"
+  },
+  "czConfig":{
+    "path": "node_modules/cz-conventional-changelog"
+  }
 }
